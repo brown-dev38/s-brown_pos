@@ -1,0 +1,45 @@
+/*----------------------------------------------------------------*\
+  # Google Fonts -> Inter && Noto sans Thai
+\*----------------------------------------------------------------*/
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+Thai:wght@100..900&display=swap"); */
+
+/*----------------------------------------------------------------*\
+  # Root
+\*----------------------------------------------------------------*/
+:root {
+  /*
+  ** FONTS FAMILY
+  */
+  --font-inter: "inter", sans-serif;
+  --font-notoSansThai: "notoSansThai", sans-serif;
+
+  /*
+  ** FONTS SIZE
+  */
+
+  /*
+  ** COLORS
+  */
+  --color-primary: #1677ff;
+  --color-primary-selected: #e6f4ff;
+  --color-gray-hover: rgba(0, 0, 0, 0.06);
+  --color-white-bg: #ffffff;
+}
+
+/*----------------------------------------------------------------*\
+  # Reset
+\*----------------------------------------------------------------*/
+/* *,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+} */
